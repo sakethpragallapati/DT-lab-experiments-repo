@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'new_node'
+    }
 
     stages {
 
